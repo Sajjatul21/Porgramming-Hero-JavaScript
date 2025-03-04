@@ -24,3 +24,11 @@ console.log(fullName);
 console.log(20 + '10');
 console.log(20 - '10');
 console.log("20" * 10);
+
+console.log(50 / 0);
+
+var a = isNaN(9);
+console.log(a);
+
+var b = isNaN(4 - 'hello');
+console.log(b);
